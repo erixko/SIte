@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                radial-gradient(circle at top left, rgb(66, 66, 66), #000);
+    background-blend-mode: multiply;
+  }
+
+.name{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 100em;
+}
+
+
+nav {
+    background: linear-gradient(rgba(247, 0, 255, 0.5), rgba(102, 0, 85, 0.5)),radial-gradient(circle at top left, rgb(41, 41, 41), #000);
+    color: #fff;
+    margin-top: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 5em;
+    right: 5em;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
